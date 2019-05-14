@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ca1b66b0a5cbd6a40a9335b0f466f42b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - textoscore: {instanceID: 0}
+  - highScore: {instanceID: 0}
+  - landSound: {fileID: 8300000, guid: aaeb7c4db8b75e446aeaeaa8a09de89e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
