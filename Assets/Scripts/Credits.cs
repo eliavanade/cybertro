@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
-    //Script da cena dos créditos -
+    //Script credit scenes -
 
     void Update()
     {
