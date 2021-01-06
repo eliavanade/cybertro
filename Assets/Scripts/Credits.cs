@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
-    //Script credit scenes -
-
+    //  Script credit scenes
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -15,9 +14,10 @@ public class Credits : MonoBehaviour
         }
     }
 
+    //  Return to the main scene
     public void CredBackGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
-    } // <-- Método que retorna a cena de menu.
+    }
 
 }
