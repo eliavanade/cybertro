@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// GameOver class: Update, RestartGame, OverBackGame -
 public class GameOver : MonoBehaviour {
-
-    //Script do GameOver -
 
     void Update()
     {
