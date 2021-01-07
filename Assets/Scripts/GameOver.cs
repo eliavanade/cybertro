@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 // GameOver Class: Update, RestartGame, OverBackGame -
 public class GameOver : MonoBehaviour {
 
+    // Command Update When Press Esc Key
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
