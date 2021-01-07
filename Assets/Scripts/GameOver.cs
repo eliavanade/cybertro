@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// GameOver class: Update, RestartGame, OverBackGame -
+// GameOver Class: Update, RestartGame, OverBackGame -
 public class GameOver : MonoBehaviour {
 
     void Update()
@@ -14,14 +14,16 @@ public class GameOver : MonoBehaviour {
         }
     }
 
+    //  Command Load Gameplay Scene
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-    } // <-- Método que retorna a cena do jogo.
+    }
 
+    //  Command Load Menu Scene
     public void OverBackGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
-    } // <-- Método que volta a cena de Menu.
+    }
 
 }
