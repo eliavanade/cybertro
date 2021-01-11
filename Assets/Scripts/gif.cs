@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class gif : MonoBehaviour
 {
-    //Atributos das imagens animadas -
+    //  Image Attributes 
     public Texture2D[] frames;
     public short fps = 10;
     public bool pause = false;
 
-    //Atualização das imagens animadas -
+    // Image Update -
     void Update()
     {
         int index = (short)(Time.time * fps) % frames.Length;
