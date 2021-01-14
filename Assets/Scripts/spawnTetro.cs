@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class spawnTetro : MonoBehaviour {
 
-    //Atributos -
+    //Attributes -
     public int proxPeca;
     public Transform[] criaPecas;
     public List<GameObject> mostraPecas;
