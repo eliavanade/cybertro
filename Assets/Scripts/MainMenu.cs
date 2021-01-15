@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+    //  Update
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
