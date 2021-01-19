@@ -16,7 +16,7 @@ public class tetroMov : MonoBehaviour {
     spawnTetro gSpawner;
 
 
-    // Inicialização -
+    // Initialization -
     void Start()
     {
         timer = velocidade;
