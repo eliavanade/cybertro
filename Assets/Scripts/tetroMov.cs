@@ -25,7 +25,7 @@ public class tetroMov : MonoBehaviour {
         gSpawner = GameObject.FindObjectOfType<spawnTetro>();
     }
 
-    // Atualização -
+    // Update -
     void Update()
     {
         if (!gManager.pause)
