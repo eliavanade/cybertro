@@ -13,17 +13,20 @@ public class MainMenu : MonoBehaviour {
             QuitGame();
         }
     }
-
+    
+    //  Go to Gameplay Scene
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-
+    
+    //  Go to Gameplay Scene
     public void CreditGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
-
+    
+    //  Go to Gameplay Scene
     public void QuitGame()
     {
         Application.Quit();
