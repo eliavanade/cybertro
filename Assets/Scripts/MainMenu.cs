@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
-    //  Go to Gameplay Scene
+    //  Go to Credit Scene
     public void CreditGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
