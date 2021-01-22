@@ -40,7 +40,7 @@ public class MusicPlayer : MonoBehaviour {
     private AudioClip GetRandomClip()
     {
         return clips[Random.Range(0, clips.Length)];
-    } // <-- Método que executa uma música randômica.
+    } // <-- Execute Random Music
 
     public void pausa()
     {
