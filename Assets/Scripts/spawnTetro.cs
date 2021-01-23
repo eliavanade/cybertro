@@ -26,5 +26,5 @@ public class spawnTetro : MonoBehaviour {
         }
 
         mostraPecas[proxPeca].SetActive(true);
-    } // <-- Método que spawna e mostra a próxima peça.
+    } // <-- spawn and active the next piece.
 }
