@@ -60,7 +60,7 @@ public class tetroMov : MonoBehaviour {
             if (Input.GetKeyUp(KeyCode.Space))
             {
                 Abater();
-            } // <-- Pressionar a tecla espaço.
+            } // <-- Press Space Key
 
             if (Time.time - queda >= (1 / gManager.dificuldade) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKeyUp(KeyCode.Space))
             {
