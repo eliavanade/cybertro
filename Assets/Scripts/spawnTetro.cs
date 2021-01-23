@@ -9,7 +9,7 @@ public class spawnTetro : MonoBehaviour {
     public Transform[] criaPecas;
     public List<GameObject> mostraPecas;
 
-    // Inicialização -
+    // Initialization -
 	void Start ()
     {
         proxPeca = Random.Range(0, 7);
