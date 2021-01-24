@@ -71,7 +71,7 @@ public class gameManager : MonoBehaviour {
         {
             pause = true;
         }
-    } // <-- Método que pausa o jogo.
+    } // <-- Pause the game
 
     public bool dentroGrade(Vector2 posicao)
     {
