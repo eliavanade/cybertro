@@ -18,7 +18,7 @@ public class gameManager : MonoBehaviour {
 
     public static Transform[,] grade = new Transform[largura, altura]; // <-- Instancia de um Array bidimensional.
 
-    // Inicialização -
+    // Initialization -
     void Start ()
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
@@ -54,7 +54,7 @@ public class gameManager : MonoBehaviour {
         }
     }
 
-    // Métodos -
+    // Metho -
     public void Reset()
     {
         PlayerPrefs.DeleteAll();
