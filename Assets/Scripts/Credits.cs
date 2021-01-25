@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
-    //  Script credit scenes
+    //  Credit scene
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
