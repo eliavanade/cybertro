@@ -42,6 +42,7 @@ public class MusicPlayer : MonoBehaviour {
         return clips[Random.Range(0, clips.Length)]; //	Execute Random Music
     }
 
+    //	Pause
     public void pausa()
     {
         if (pause)
