@@ -21,7 +21,7 @@ public class gif : MonoBehaviour
         }
     }
     
-    // Pause Method
+    // Pause
     public void pausa()
     {
         if (pause)
