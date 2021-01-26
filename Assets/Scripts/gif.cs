@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class gif : MonoBehaviour
 {
-    //  Image Attributes 
+    // Attributes 
     public Texture2D[] frames;
     public short fps = 10;
     public bool pause = false;
