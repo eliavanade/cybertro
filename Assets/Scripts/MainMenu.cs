@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour {
         }
     }
     
-    //  Go to Gameplay Scene
+    //  Gameplay Scene
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
