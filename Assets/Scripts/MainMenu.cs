@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
     
-    //  Go to Quit Game
+    //  Quit Game
     public void QuitGame()
     {
         Application.Quit();
