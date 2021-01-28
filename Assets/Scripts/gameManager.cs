@@ -141,7 +141,7 @@ public class gameManager : MonoBehaviour {
 
             grade[x, y] = null;
         }
-    } // <-- Método que deleta quadrado da linha a ser apagada.
+    } // <-- Delete the line with the completed squares.
 
     public void moveLinhaBaixo(int y)
     {
