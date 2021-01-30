@@ -50,7 +50,7 @@ public class tetroMov : MonoBehaviour {
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 IrEsquerda();
-            } // <-- Pressionar para esquerda
+            } // <-- Press Left Key
 
             if (Input.GetKey(KeyCode.DownArrow))
             {
