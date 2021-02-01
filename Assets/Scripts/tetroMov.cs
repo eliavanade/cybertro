@@ -234,7 +234,7 @@ public class tetroMov : MonoBehaviour {
             enabled = false;
             gSpawner.proximaPeca();
         }
-    } // <-- Método que faz a peça descer rapido moderadamente.
+    } // <-- Método que faz a peça descer rapido moderadamente
 
     void quedaTime()
     {
