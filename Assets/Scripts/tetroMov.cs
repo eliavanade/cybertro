@@ -165,7 +165,7 @@ public class tetroMov : MonoBehaviour {
             enabled = false;
             gSpawner.proximaPeca();
         }
-    } // <-- Método que faz a peça descer rapido até seu limite.
+    } // <-- Método que faz a peça descer rapido até seu limite
 
     public void IrDireita()
     {
