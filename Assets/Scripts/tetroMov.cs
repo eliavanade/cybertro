@@ -140,7 +140,7 @@ public class tetroMov : MonoBehaviour {
             }
         }
         return true;
-    } // <-- Método que faz a checagem de cada quadrado em cada peça.
+    } // <-- Método que faz a checagem de cada quadrado em cada peça
 
     public void Abater()
     {
