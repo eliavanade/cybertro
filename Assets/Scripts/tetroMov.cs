@@ -74,7 +74,6 @@ public class tetroMov : MonoBehaviour {
         }
     }
 
-    // Methods -
     void checarRoda()
     {
         if (podeRodar == posicaoValida())
