@@ -184,7 +184,7 @@ public class tetroMov : MonoBehaviour {
         {
             transform.position += new Vector3(-1, 0, 0);
         }
-    }  // <-- Faz a peça ir para a direita
+    }  // Faz a peça ir para a direita
 
     public void IrEsquerda()
     {
