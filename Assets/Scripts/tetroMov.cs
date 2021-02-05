@@ -260,7 +260,7 @@ public class tetroMov : MonoBehaviour {
         }
 
         queda = Time.time;
-    } // <-- Método que corrige a queda junto ao time
+    } // Método que corrige a queda junto ao time
 
     // Métodos dos efeitos sonoros
     void PlayLandAudio()
