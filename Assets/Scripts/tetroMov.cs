@@ -121,7 +121,7 @@ public class tetroMov : MonoBehaviour {
                 }
             }
         }
-    } // Método que faz a checagem se a peça pode ou não rodar.
+    } // Método que faz a checagem se a peça pode ou não rodar
 
     bool posicaoValida()
     {
