@@ -266,5 +266,5 @@ public class tetroMov : MonoBehaviour {
     void PlayLandAudio()
     {
         audioSource.PlayOneShot(landSound);
-    } // Método que executa um efeito sonoro da peça quando ela cair
+    } // Metodo que executa um efeito sonoro da peça quando ela cair
 }
