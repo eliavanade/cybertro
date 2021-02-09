@@ -40,7 +40,7 @@ public class tetroMov : MonoBehaviour {
             if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKey(KeyCode.Space))
             {
                 timer = velocidade;
-            } // <-- Iguala a velocidade ao time
+            } // Iguala a velocidade ao time
 
             if (Input.GetKey(KeyCode.RightArrow))
             {
