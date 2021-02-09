@@ -45,7 +45,7 @@ public class tetroMov : MonoBehaviour {
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 IrDireita();
-            } // <-- Press Right Key
+            } // Press Right Key
 
             if (Input.GetKey(KeyCode.LeftArrow))
             {
