@@ -35,7 +35,7 @@ public class tetroMov : MonoBehaviour {
             {
                 gManager.pontoDificuldade -= 1000;
                 gManager.dificuldade += .5f;
-            } // <-- Aumenta a dificuldade ao passar de 1000 pontos
+            } // Aumenta a dificuldade ao passar de 1000 pontos
 
             if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKey(KeyCode.Space))
             {
