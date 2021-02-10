@@ -203,7 +203,7 @@ public class tetroMov : MonoBehaviour {
         {
             transform.position += new Vector3(1, 0, 0);
         }
-    } // Método que faz a peça ir para a esquerda
+    } // Faz a peça ir para a esquerda
 
     public void IrBaixo()
     {
