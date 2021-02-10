@@ -65,7 +65,7 @@ public class tetroMov : MonoBehaviour {
             if (Time.time - queda >= (1 / gManager.dificuldade) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKeyUp(KeyCode.Space))
             {
                 quedaTime();
-            } // <-- Decisão que Garante a correção da queda
+            } // Decisão que Garante a correção da queda
           
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
