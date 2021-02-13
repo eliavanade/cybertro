@@ -70,7 +70,7 @@ public class tetroMov : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 checarRoda();
-            } // <-- Press to Up Arrow
+            } // Press to Up Arrow
         }
     }
 
