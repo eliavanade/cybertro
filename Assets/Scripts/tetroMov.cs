@@ -55,7 +55,7 @@ public class tetroMov : MonoBehaviour {
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 IrBaixo();
-            } // <-- Press Key Down
+            } // Press Key Down
 
             if (Input.GetKeyUp(KeyCode.Space))
             {
