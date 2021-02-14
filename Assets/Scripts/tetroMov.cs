@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -233,7 +233,7 @@ public class tetroMov : MonoBehaviour {
             enabled = false;
             gSpawner.proximaPeca();
         }
-    } // <-- Faz a peça descer rapido moderadamente
+    } // Faz a peça descer rapido moderadamente
 
     void quedaTime()
     {
