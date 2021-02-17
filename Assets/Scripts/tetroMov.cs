@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class tetroMov : MonoBehaviour {
     
-    // Attributes
+    //  Attributes
     public bool podeRodar;
     public bool roda360;
     public float queda;
