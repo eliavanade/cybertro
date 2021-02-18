@@ -30,7 +30,7 @@ public class tetroMov : MonoBehaviour {
     {
         if (!gManager.pause)
         {
-            // Structure decision -
+            // Structure decision
             if (gManager.pontoDificuldade > 1000)
             {
                 gManager.pontoDificuldade -= 1000;
