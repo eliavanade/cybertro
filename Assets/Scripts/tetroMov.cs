@@ -262,7 +262,7 @@ public class tetroMov : MonoBehaviour {
         queda = Time.time;
     } // Fix the fall with time
 
-    // Efeitos sonoros
+    /
     void PlayLandAudio()
     {
         audioSource.PlayOneShot(landSound);
