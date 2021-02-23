@@ -16,7 +16,7 @@ public class spawnTetro : MonoBehaviour {
         proximaPeca();
     }
     
-    // spawn and active the next piece.
+    // Spawn and active the next piece
     public void proximaPeca()
     {
         Instantiate(criaPecas[proxPeca], transform.position, Quaternion.identity);
