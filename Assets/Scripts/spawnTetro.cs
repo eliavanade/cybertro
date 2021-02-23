@@ -15,7 +15,8 @@ public class spawnTetro : MonoBehaviour {
         proxPeca = Random.Range(0, 7);
         proximaPeca();
     }
-
+    
+    // spawn and active the next piece.
     public void proximaPeca()
     {
         Instantiate(criaPecas[proxPeca], transform.position, Quaternion.identity);
@@ -26,5 +27,5 @@ public class spawnTetro : MonoBehaviour {
         }
 
         mostraPecas[proxPeca].SetActive(true);
-    } // <-- spawn and active the next piece.
+    }
 }
