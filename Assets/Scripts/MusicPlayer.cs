@@ -9,7 +9,7 @@ public class MusicPlayer : MonoBehaviour {
     private AudioSource mpSource;
     public bool pause = false;
 
-    // Initialization -
+    // Initialization
     void Start ()
     {
         mpSource = FindObjectOfType<AudioSource>();
