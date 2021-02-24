@@ -15,8 +15,8 @@ public class MusicPlayer : MonoBehaviour {
         mpSource = FindObjectOfType<AudioSource>();
 	}
 
-    // Update -
-	void Update ()
+    // Update 
+    void Update ()
     {
 		if (!mpSource.isPlaying)
         {
