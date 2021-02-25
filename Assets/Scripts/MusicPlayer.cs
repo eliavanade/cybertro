@@ -36,7 +36,7 @@ public class MusicPlayer : MonoBehaviour {
         }
     }
 
-    // Get Random Clip Method
+    // Get Random Clip
     private AudioClip GetRandomClip()
     {
         return clips[Random.Range(0, clips.Length)]; //	Execute Random Music
