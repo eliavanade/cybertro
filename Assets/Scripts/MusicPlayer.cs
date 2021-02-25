@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour {
 
-    // Attributes -
+    // Attributes
     public AudioClip[] clips;
     private AudioSource mpSource;
     public bool pause = false;
