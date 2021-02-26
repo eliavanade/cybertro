@@ -59,7 +59,7 @@ public class gameManager : MonoBehaviour {
     {
         PlayerPrefs.DeleteAll();
         highScore.text = "0";
-    } // <-- Secret.
+    } // Secret
 
     public void pausa()
     {
