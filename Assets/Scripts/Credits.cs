@@ -14,7 +14,7 @@ public class Credits : MonoBehaviour
         }
     }
 
-    //  Return to the main scene
+    // Return to the main scene
     public void CredBackGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
