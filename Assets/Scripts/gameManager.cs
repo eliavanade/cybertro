@@ -24,7 +24,7 @@ public class gameManager : MonoBehaviour {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 
-    // Update -
+    // Update
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
