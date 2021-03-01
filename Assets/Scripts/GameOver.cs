@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// GameOver
+// Game Over
 public class GameOver : MonoBehaviour {
 
     // Command Update When Press Esc Key
