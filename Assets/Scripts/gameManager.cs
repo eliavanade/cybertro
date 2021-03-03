@@ -81,7 +81,7 @@ public class gameManager : MonoBehaviour {
     public Vector2 arredonda(Vector2 nA)
     {
         return new Vector2(Mathf.Round(nA.x), Mathf.Round(nA.y));
-    } // <-- Arredonda um número real para um inteiro.
+    } // Arredonda um número real para um inteiro.
 
     public void atualizaGrade(tetroMov pecaTetris)
     {
