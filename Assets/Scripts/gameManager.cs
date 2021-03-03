@@ -119,7 +119,7 @@ public class gameManager : MonoBehaviour {
         {
             return grade[(int)posicao.x, (int)posicao.y];
         }
-    }  // Método que pega os valores da posição e verifica se são validos.
+    }  // Método que pega os valores da posição e verifica se são validos
 
     public bool linhaCheia(int y)
     {
