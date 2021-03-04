@@ -131,7 +131,7 @@ public class gameManager : MonoBehaviour {
             }
         }
         return true;
-    } // <-- Verifica se a linha está cheia.
+    } // Verifica se a linha está cheia.
 
     public void deletaQuadrado (int y)
     {
@@ -155,7 +155,7 @@ public class gameManager : MonoBehaviour {
                 grade[x, y - 1].position += new Vector3(0, -1, 0);
             }
         }
-    } // <-- Método que move a linha que sobrou para baixo.
+    } // Move a linha que sobrou para baixo.
 
     public void moveTodasLinhasBaixo(int y)
     {
