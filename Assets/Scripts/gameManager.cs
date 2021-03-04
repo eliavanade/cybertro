@@ -141,7 +141,7 @@ public class gameManager : MonoBehaviour {
 
             grade[x, y] = null;
         }
-    } // <-- Delete the line with the completed squares.
+    } // Delete the line with the completed squares.
 
     public void moveLinhaBaixo(int y)
     {
