@@ -163,7 +163,7 @@ public class gameManager : MonoBehaviour {
         {
             moveLinhaBaixo(i);
         }
-    } // <-- Método que move todas as linhas que sobraram para baixo.
+    } // Move todas as linhas que sobraram para baixo.
 
     public void apagaLinha()
     {
