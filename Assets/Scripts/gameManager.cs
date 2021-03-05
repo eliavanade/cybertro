@@ -107,7 +107,7 @@ public class gameManager : MonoBehaviour {
                 grade[(int)posicao.x, (int)posicao.y] = peca;
             }
         }
-    } // Atualiza a Grade quando sofrer alterações.
+    } // Atualiza a Grade quando sofrer alterações
 
     public Transform posicaoTransformGrade(Vector2 posicao)
     {
@@ -131,7 +131,7 @@ public class gameManager : MonoBehaviour {
             }
         }
         return true;
-    } // Verifica se a linha está cheia.
+    } // Verifica se a linha está cheia
 
     public void deletaQuadrado (int y)
     {
