@@ -178,7 +178,7 @@ public class gameManager : MonoBehaviour {
                 pontoDificuldade += 100;
             }
         }
-    }  // <-- Método que apaga a linha.
+    }  // <-- Método que apaga a linha
 
     public bool acimaGrade(tetroMov pecaTetroMino)
     {
@@ -194,10 +194,10 @@ public class gameManager : MonoBehaviour {
             }
         }
         return false;
-    } // <-- Método que verifica se está acima da grade.
+    } // <-- Método que verifica se está acima da grade
 
     public void gameOver()
     {
         SceneManager.LoadScene("gameOver");
-    } // Método que dá GameOver.
+    } // Método que dá GameOver
 }
