@@ -16,7 +16,7 @@ public class gameManager : MonoBehaviour {
     public float dificuldade = 1;
     public bool pause = false;
 
-    public static Transform[,] grade = new Transform[largura, altura]; // <-- Instancia de um Array bidimensional.
+    public static Transform[,] grade = new Transform[largura, altura]; // Instancia de um Array bidimensional.
 
     // Initialization
     void Start ()
