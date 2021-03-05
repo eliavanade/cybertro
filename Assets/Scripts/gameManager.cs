@@ -76,7 +76,7 @@ public class gameManager : MonoBehaviour {
     public bool dentroGrade(Vector2 posicao)
     {
         return ((int)posicao.x >= 0 && (int)posicao.x < largura && (int)posicao.y >= 0);
-    } // Faz a verificação se as peças estão dentro ou fora da grade.
+    } // Faz a verificação se as peças estão dentro ou fora da grade
 
     public Vector2 arredonda(Vector2 nA)
     {
