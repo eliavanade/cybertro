@@ -199,5 +199,5 @@ public class gameManager : MonoBehaviour {
     public void gameOver()
     {
         SceneManager.LoadScene("gameOver");
-    } // Método que dá GameOver
+    } // Active GameOver Scene
 }
