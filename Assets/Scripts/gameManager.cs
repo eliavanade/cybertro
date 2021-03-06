@@ -194,7 +194,7 @@ public class gameManager : MonoBehaviour {
             }
         }
         return false;
-    } // <-- Método que verifica se está acima da grade
+    } // Verifica se está acima da grade
 
     public void gameOver()
     {
