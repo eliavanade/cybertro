@@ -178,7 +178,7 @@ public class gameManager : MonoBehaviour {
                 pontoDificuldade += 100;
             }
         }
-    }  // <-- Método que apaga a linha
+    }  // Delete the line
 
     public bool acimaGrade(tetroMov pecaTetroMino)
     {
