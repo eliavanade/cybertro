@@ -235,6 +235,7 @@ public class tetroMov : MonoBehaviour {
         }
     } // Faz a peça descer rapido moderadamente
 
+    // Fix the fall with time
     void quedaTime()
     {
         transform.position += new Vector3(0, -1, 0);
@@ -260,7 +261,7 @@ public class tetroMov : MonoBehaviour {
         }
 
         queda = Time.time;
-    } // Fix the fall with time
+    } 
 
     // Sound Effects
     void PlayLandAudio()
