@@ -37,40 +37,47 @@ public class tetroMov : MonoBehaviour {
                 gManager.dificuldade += .5f;
             } // Aumenta a dificuldade ao passar de 1000 pontos
 
+            // Iguala a velocidade ao time
             if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKey(KeyCode.Space))
             {
                 timer = velocidade;
-            } // Iguala a velocidade ao time
+            } 
 
+            // Press Right Key
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 IrDireita();
-            } // Press Right Key
+            } 
 
+            // Press Left Key
             if (Input.GetKey(KeyCode.LeftArrow))
             {
                 IrEsquerda();
-            } // Press Left Key
+            } 
 
+            // Press Key Down
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 IrBaixo();
-            } // Press Key Down
+            } 
 
+            // Press Space Key
             if (Input.GetKeyUp(KeyCode.Space))
             {
                 Abater();
-            } // Press Space Key
+            } 
 
+            // Decisão que Garante a correção da queda
             if (Time.time - queda >= (1 / gManager.dificuldade) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKeyUp(KeyCode.Space))
             {
                 quedaTime();
-            } // Decisão que Garante a correção da queda
-          
+            } 
+            
+            // Press to Up Arrow
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 checarRoda();
-            } // Press to Up Arrow
+            } 
         }
     }
 
