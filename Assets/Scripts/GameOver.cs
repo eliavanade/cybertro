@@ -15,7 +15,7 @@ public class GameOver : MonoBehaviour {
         }
     }
 
-    //  Command Load Gameplay Scene
+    // Command Load Gameplay Scene
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
