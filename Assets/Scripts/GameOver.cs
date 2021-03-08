@@ -21,7 +21,7 @@ public class GameOver : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
-    //  Command Load Menu Scene
+    // Command Load Menu Scene
     public void OverBackGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
