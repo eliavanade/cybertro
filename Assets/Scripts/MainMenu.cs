@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-    //  Update
+    // Update
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -14,19 +14,19 @@ public class MainMenu : MonoBehaviour {
         }
     }
     
-    //  Gameplay Scene
+    // Gameplay Scene
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
-    //  Credit Scene
+    // Credit Scene
     public void CreditGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
     
-    //  Quit Game
+    // Quit Game
     public void QuitGame()
     {
         Application.Quit();
