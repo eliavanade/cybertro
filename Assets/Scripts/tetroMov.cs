@@ -2,6 +2,9 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+/*
+ * Tetro Mov class
+ */
 public class tetroMov : MonoBehaviour {
     
     // Attributes
