@@ -15,7 +15,6 @@ public class tetroMov : MonoBehaviour {
     gameManager gManager;
     spawnTetro gSpawner;
 
-
     // Initialization
     void Start()
     {
