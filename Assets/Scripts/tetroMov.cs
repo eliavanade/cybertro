@@ -132,6 +132,7 @@ public class tetroMov : MonoBehaviour {
         }
     } // Checa se a peça pode ou não rodar
 
+    // Checa cada quadrado em cada peça
     bool posicaoValida()
     {
         foreach (Transform child in transform)
@@ -148,7 +149,7 @@ public class tetroMov : MonoBehaviour {
             }
         }
         return true;
-    } // Checagem de cada quadrado em cada peça
+    } 
 
     public void Abater()
     {
