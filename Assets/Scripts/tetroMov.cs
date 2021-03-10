@@ -152,6 +152,7 @@ public class tetroMov : MonoBehaviour {
         return true;
     } 
 
+    // Faz a peça descer rapido até seu limite
     public void Abater()
     {
         timer += Time.deltaTime;
@@ -175,7 +176,7 @@ public class tetroMov : MonoBehaviour {
             enabled = false;
             gSpawner.proximaPeca();
         }
-    } // Faz a peça descer rapido até seu limite
+    }
 
     public void IrDireita()
     {
