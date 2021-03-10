@@ -82,7 +82,8 @@ public class tetroMov : MonoBehaviour {
             } 
         }
     }
-
+    
+    // Checa se a peça pode ou não rodar
     void checarRoda()
     {
         if (podeRodar == posicaoValida())
@@ -130,7 +131,7 @@ public class tetroMov : MonoBehaviour {
                 }
             }
         }
-    } // Checa se a peça pode ou não rodar
+    }
 
     // Checa cada quadrado em cada peça
     bool posicaoValida()
