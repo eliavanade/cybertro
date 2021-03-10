@@ -32,12 +32,12 @@ public class tetroMov : MonoBehaviour {
     {
         if (!gManager.pause)
         {
-            // Structure decision
+            // Structure decision (Aumenta a dificuldade ao passar de 1000 pontos)
             if (gManager.pontoDificuldade > 1000)
             {
                 gManager.pontoDificuldade -= 1000;
                 gManager.dificuldade += .5f;
-            } // Aumenta a dificuldade ao passar de 1000 pontos
+            }
 
             // Iguala a velocidade ao time
             if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.DownArrow) || Input.GetKey(KeyCode.Space))
