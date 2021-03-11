@@ -199,6 +199,7 @@ public class tetroMov : MonoBehaviour {
         }
     }
 
+    // Faz a peça ir para a esquerda
     public void IrEsquerda()
     {
         timer += Time.deltaTime;
@@ -216,7 +217,7 @@ public class tetroMov : MonoBehaviour {
         {
             transform.position += new Vector3(1, 0, 0);
         }
-    } // Faz a peça ir para a esquerda
+    }
 
     // Faz a peça descer rapido moderadamente
     public void IrBaixo()
