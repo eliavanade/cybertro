@@ -218,6 +218,7 @@ public class tetroMov : MonoBehaviour {
         }
     } // Faz a peça ir para a esquerda
 
+    // Faz a peça descer rapido moderadamente
     public void IrBaixo()
     {
         timer += Time.deltaTime;
@@ -246,7 +247,7 @@ public class tetroMov : MonoBehaviour {
             enabled = false;
             gSpawner.proximaPeca();
         }
-    } // Faz a peça descer rapido moderadamente
+    } 
 
     // Fix the fall with time
     void quedaTime()
