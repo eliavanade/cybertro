@@ -61,6 +61,7 @@ public class gameManager : MonoBehaviour {
         highScore.text = "0";
     } 
 
+    // Pause the game
     public void pausa()
     {
         if (pause)
@@ -71,7 +72,7 @@ public class gameManager : MonoBehaviour {
         {
             pause = true;
         }
-    } // Pause the game
+    } 
     
     // Faz a verificação se as peças estão dentro ou fora da grade
     public bool dentroGrade(Vector2 posicao)
