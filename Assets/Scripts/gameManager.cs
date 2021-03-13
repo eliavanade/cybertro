@@ -53,13 +53,13 @@ public class gameManager : MonoBehaviour {
             highScore.text = score.ToString();
         }
     }
-
-    // Methods
+    
+    // Secret
     public void Reset()
     {
         PlayerPrefs.DeleteAll();
         highScore.text = "0";
-    } // Secret
+    } 
 
     public void pausa()
     {
